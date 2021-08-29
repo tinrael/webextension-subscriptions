@@ -1,0 +1,2 @@
+# webextension-subscriptions
+Subscriptions
