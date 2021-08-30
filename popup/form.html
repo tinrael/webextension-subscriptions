@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Add a subscription</title>
+  <link href="css/w3.css" rel="stylesheet" type="text/css">
+  <style>
+    section {
+      width: 305px;
+    }
+  </style>
+</head>
+<body class="w3-light-grey">
+  <header class="w3-container w3-blue-grey w3-opacity">
+    <h2>Add a subscription</h2>
+  </header>
+
+  <nav class="w3-bar w3-border w3-light-grey">
+    <a href="subscriptions.html" class="w3-bar-item w3-button w3-border-right">Back</a>
+  </nav>
+
+  <section class="w3-container">
+    <div class="w3-panel w3-border">
+      <p>To add a subscription manually, specify a name and a link to unsubscribe.</p>
+    </div>
+
+    <form id="form">
+      <p>
+        <label for="name">Name:</label>
+        <input class="w3-input w3-border" type="text" name="name" id="name" required="required">
+      </p>
+      <p>
+        <label for="link-to-unsubscribe">Link to unsubscribe:</label>
+        <input class="w3-input w3-border" type="url" name="link-to-unsubscribe" id="link-to-unsubscribe" required="required">
+      </p>
+
+      <p>
+        <button class="w3-button w3-white w3-border" type="submit">Add a subscription</button>
+      </p>
+    </form>
+  </section>
+
+  <script src="js/form.js"></script>
+</body>
+</html>
